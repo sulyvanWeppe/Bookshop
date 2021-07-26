@@ -1,0 +1,13 @@
+org/demo/springJdbcBookshop/CategoryDAOImpl.class
+org/demo/springJdbcBookshop/BookshopBookRelDAO.class
+org/demo/springJdbcBookshop/ConsumerModuleConfig.class
+org/demo/springJdbcBookshop/BookDAOImpl.class
+org/demo/springJdbcBookshop/BookshopMapper.class
+org/demo/springJdbcBookshop/BookshopBookRelMapper.class
+org/demo/springJdbcBookshop/BookDAO.class
+org/demo/springJdbcBookshop/BookshopDAO.class
+org/demo/springJdbcBookshop/BookMapper.class
+org/demo/springJdbcBookshop/CategoryDAO.class
+org/demo/springJdbcBookshop/BookshopBookRelDAOImpl.class
+org/demo/springJdbcBookshop/BookshopDAOImpl.class
+org/demo/springJdbcBookshop/CategoryMapper.class

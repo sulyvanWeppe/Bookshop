@@ -1,0 +1,9 @@
+/home/sulyvan/WorkEnv/bookshop/services_module/src/main/java/org/demo/springJdbcBookshop/exceptions/BookshopAppException.java
+/home/sulyvan/WorkEnv/bookshop/services_module/src/main/java/org/demo/springJdbcBookshop/AppServices.java
+/home/sulyvan/WorkEnv/bookshop/services_module/src/main/java/org/demo/springJdbcBookshop/CategoryServices.java
+/home/sulyvan/WorkEnv/bookshop/services_module/src/main/java/org/demo/springJdbcBookshop/BookshopBookRelServices.java
+/home/sulyvan/WorkEnv/bookshop/services_module/src/main/java/org/demo/springJdbcBookshop/exceptions/EntityException.java
+/home/sulyvan/WorkEnv/bookshop/services_module/src/main/java/org/demo/springJdbcBookshop/exceptions/BookshopAppExceptionController.java
+/home/sulyvan/WorkEnv/bookshop/services_module/src/main/java/org/demo/springJdbcBookshop/BookshopServices.java
+/home/sulyvan/WorkEnv/bookshop/services_module/src/main/java/org/demo/springJdbcBookshop/exceptions/EntityNotFoundException.java
+/home/sulyvan/WorkEnv/bookshop/services_module/src/main/java/org/demo/springJdbcBookshop/BookServices.java

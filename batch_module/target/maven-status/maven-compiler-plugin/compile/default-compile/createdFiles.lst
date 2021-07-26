@@ -1,0 +1,7 @@
+org/demo/springJdbcBookshop/CsvParser.class
+org/demo/springJdbcBookshop/App.class
+org/demo/springJdbcBookshop/BookshopCsvParserImpl.class
+org/demo/springJdbcBookshop/CategoryCsvParserImpl.class
+org/demo/springJdbcBookshop/BatchModuleConfig.class
+org/demo/springJdbcBookshop/BookshopBookRelCsvParserImpl.class
+org/demo/springJdbcBookshop/BookCsvParserImpl.class

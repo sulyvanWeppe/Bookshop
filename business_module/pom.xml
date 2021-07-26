@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <parent>
+    <groupId>org.demo.springJdbcBookshop</groupId>
+    <artifactId>bookshop</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <!--Module description-->
+  <groupId>org.demo.springJdbcBookshop</groupId>
+  <artifactId>business_module</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>business_module</name>
+  <url>http://maven.apache.org</url>
+
+  <!--Properties-->
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <!--Dependencies-->
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.demo.springJdbcBookshop</groupId>
+      <artifactId>consumer_module</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.demo.springJdbcBookshop</groupId>
+      <artifactId>model_module</artifactId>
+    </dependency>
+  </dependencies>
+</project>
