@@ -41,6 +41,7 @@ public class CategoryServices {
     ///////////////////////////////////
     //POST API
     ///////////////////////////////////
+    //@CrossOrigin(origins = "http://localhost:9090")
     @PostMapping(value = "/category", produces = "application/json")
     @ResponseBody
     public Category postCategory(@RequestBody Category category)

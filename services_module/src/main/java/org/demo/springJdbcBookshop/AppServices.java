@@ -1,5 +1,6 @@
 package org.demo.springJdbcBookshop;
 
+import com.ulisesbocchio.jasyptspringboot.annotation.EnableEncryptableProperties;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.swing.*;
 
+@EnableEncryptableProperties
 @SpringBootApplication
 public class AppServices
 {

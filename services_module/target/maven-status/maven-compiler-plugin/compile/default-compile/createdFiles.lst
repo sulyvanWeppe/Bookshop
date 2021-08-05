@@ -1,9 +1,11 @@
-org/demo/springJdbcBookshop/AppServices.class
 org/demo/springJdbcBookshop/exceptions/BookshopAppException.class
-org/demo/springJdbcBookshop/exceptions/BookshopAppExceptionController.class
 org/demo/springJdbcBookshop/exceptions/EntityException.class
 org/demo/springJdbcBookshop/BookshopServices.class
+org/demo/springJdbcBookshop/ServiceModuleConfig.class
+org/demo/springJdbcBookshop/BookshopBookRelServices.class
+org/demo/springJdbcBookshop/AppServices.class
+org/demo/springJdbcBookshop/exceptions/BookshopAppExceptionController.class
 org/demo/springJdbcBookshop/exceptions/EntityNotFoundException.class
 org/demo/springJdbcBookshop/BookServices.class
 org/demo/springJdbcBookshop/CategoryServices.class
-org/demo/springJdbcBookshop/BookshopBookRelServices.class
+org/demo/springJdbcBookshop/ServiceModuleConfig$1.class

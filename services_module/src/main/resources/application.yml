@@ -1,5 +1,13 @@
-spring:
-  application:
-    name: bookshop
-  server:
-    port: 9090
+application:
+  name: bookshop
+server:
+  port: 9443
+  ssl:
+    key-store: services_module/src/main/resources/keystore.p12
+    key-store-password: ENC(ke19FwcccY7RRC1iaavIaL4u9SOQETKk)
+    keyStoreType: PKCS12
+    keyAlias: tomcat
+
+jasypt:
+  encryptor:
+    password: dev
