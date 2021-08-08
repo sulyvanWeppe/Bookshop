@@ -23,4 +23,13 @@
       <module name="services_module" target="11" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="batch_module" options="-parameters" />
+      <module name="business_module" options="-parameters" />
+      <module name="consumer_module" options="-parameters" />
+      <module name="model_module" options="-parameters" />
+      <module name="services_module" options="-parameters" />
+    </option>
+  </component>
 </project>
