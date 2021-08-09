@@ -3,10 +3,12 @@ package org.demo.springJdbcBookshop;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import org.springframework.boot.test.context.SpringBootTest;
 
 /**
  * Unit test for simple App.
  */
+@SpringBootTest
 public class AppTest 
     extends TestCase
 {
@@ -35,4 +37,14 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    //////////////////////////////////
+    // Custom Test Cases
+    //////////////////////////////////
+    public void sayHello()
+    {
+        System.out.println("hello");
+        assertTrue(true);
+    }
+
 }

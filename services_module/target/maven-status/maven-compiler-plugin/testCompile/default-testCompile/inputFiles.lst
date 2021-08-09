@@ -1,1 +1,5 @@
-/home/sulyvan/WorkEnv/bookshop/services_module/src/test/java/org/demo/springJdbcBookshop/AppTest.java
+/home/sulyvan/WorkEnv/bookshop/services_module/src/test/java/org/demo/springJdbcBookshop/business_module/book/BookTest.java
+/home/sulyvan/WorkEnv/bookshop/services_module/src/test/java/org/demo/springJdbcBookshop/business_module/category/CategoryTest.java
+/home/sulyvan/WorkEnv/bookshop/services_module/src/test/java/org/demo/springJdbcBookshop/business_module/bookshop/BookshopTest.java
+/home/sulyvan/WorkEnv/bookshop/services_module/src/test/java/org/demo/springJdbcBookshop/business_module/bookshopBookRel/BookshopBookRelTest.java
+/home/sulyvan/WorkEnv/bookshop/services_module/src/test/java/org/demo/springJdbcBookshop/context/ContextTest.java

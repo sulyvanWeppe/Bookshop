@@ -123,7 +123,7 @@ public class BookDAOImpl implements BookDAO {
     @Override
     public boolean existsWCategory(int categoryId) {
         String sql = "select count(*) from book where category_id = ?;";
-        int nbBook = jdbcTemplate.update(sql,categoryId);
+        int nbBook = jdbcTemplate.queryForObject(sql, Integer.class, categoryId);
 
         return nbBook>0;
     }

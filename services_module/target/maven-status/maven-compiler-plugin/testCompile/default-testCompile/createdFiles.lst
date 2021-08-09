@@ -1,1 +1,5 @@
-org/demo/springJdbcBookshop/AppTest.class
+org/demo/springJdbcBookshop/business_module/book/BookTest.class
+org/demo/springJdbcBookshop/business_module/bookshop/BookshopTest.class
+org/demo/springJdbcBookshop/business_module/bookshopBookRel/BookshopBookRelTest.class
+org/demo/springJdbcBookshop/business_module/category/CategoryTest.class
+org/demo/springJdbcBookshop/context/ContextTest.class

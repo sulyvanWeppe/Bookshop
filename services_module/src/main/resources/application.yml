@@ -19,10 +19,16 @@ jasypt:
   encryptor:
     password: dev
 
+logging:
+  file:
+    name: Logs/bookshop.log
+
 management:
   endpoints:
     web:
       exposure:
         include: "*"
+    logfile:
+      external-file: Logs/bookshop.log
   security:
     enabled: false
