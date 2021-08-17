@@ -17,7 +17,9 @@ public class ServiceModuleConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/bookshop_app/*").allowedOrigins("http://localhost:9090");
+                registry.addMapping("/bookshop_app/**")
+                        .allowedOrigins("http://localhost:9000")
+                        .allowedMethods("PUT","DELETE","GET","POST");
             }
         };
     }

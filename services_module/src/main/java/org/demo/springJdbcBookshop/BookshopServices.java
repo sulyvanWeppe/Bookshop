@@ -57,6 +57,7 @@ public class BookshopServices {
     ///////////////////////////////////
     //DELETE API
     ///////////////////////////////////
+ //   @CrossOrigin(origins = "http://localhost:9000")
     @DeleteMapping(value = "/bookshop/{id}", produces = "application/json")
     public ResponseEntity<String> deleteBookshop(@PathVariable int id) throws EntityNotFoundException
     {
