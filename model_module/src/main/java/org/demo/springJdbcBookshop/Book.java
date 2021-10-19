@@ -23,7 +23,6 @@ public class Book extends Entity{
 
     public Book()
     {
-        System.out.println("3.75");
         this.setEntityType(EntityType.BOOK);
     }
 
